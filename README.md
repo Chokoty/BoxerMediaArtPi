@@ -1,22 +1,36 @@
 # BoxerMediaArtPi
 ## Usage
 ```
-pi@raspberrypi ~ $ cd ~/BoxerMediaArtPi
-pi@raspberrypi ~/BoxerMediaArtPi $ ./main <length span> <width span>
+pi@raspberrypi ~/BoxerMediaArtPi $ ./boxer <length span> <width span>
 ```
 ## Download and Install
 ### WiringPi
+Download [wiringPi] (http://wiringpi.com/) code.
 ```
 pi@raspberrypi ~ $ git clone git://git.drogon.net/wiringPi
+```
+Go to wiringPi directory.
+```
 pi@raspberrypi ~ $ cd wiringPi
+```
+Run the 'build' script. It will automatically install the library.
+```
 pi@raspberrypi ~/wiringPi $ ./build
 ```
 ### BoxerMediaArtPi
+Download BoxerMediaArt code.
 ```
 pi@raspberrypi ~ $ git clone https://github.com/Pauis/BoxerMediaArtPi.git
+```
+Go to BoxerMediaArtPi directory.
+```
 pi@raspberrypi ~ $ cd BoxerMediaArtPi
-pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o main main.c -wiringPi
+```
+Build excutable file from code.
+```
+pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o boxer main.c asciiart.c -wiringPi
 ```
 ## Notice
-* This program uses [WiringPi] (http://wiringpi.com/) library, so you have to install it before compiling.
+* This program is for Command Line Interface.
+* This program uses [wiringPi] (http://wiringpi.com/) library, so you have to install it before compiling.
 * This program doesn't resize pictures.  you have to resize them manually.
