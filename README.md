@@ -28,7 +28,7 @@ pi@raspberrypi ~ $ cd BoxerMediaArtPi
 ```
 Build excutable file from code.
 ```
-pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o boxer main.c asciiart.h -wiringPi
+pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o boxer main.c asciiart.c asciiart.h -wiringPi
 ```
 ## Notice
 * This program is for Command Line Interface.
