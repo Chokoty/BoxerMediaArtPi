@@ -275,5 +275,5 @@ void ArtAttackTogether(void)
 		"::::::.:.:.::.:...... ......  . ........   . .     ...    .\n"
 		"\n"
 		"\n"
-		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Crochet1.jpg
+		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Crochet1.jpg\n");
 }
