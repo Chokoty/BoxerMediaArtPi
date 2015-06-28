@@ -1,7 +1,7 @@
 # BoxerMediaArtPi
 ## Usage
 ```
-pi@raspberrypi ~/BoxerMediaArtPi $ sudo ./boxer <length span> <width span>
+pi@raspberrypi ~/BoxerMediaArtPi $ sudo ./boxer.out <length span> <width span>
 ```
 ## Download and Install
 ### WiringPi
