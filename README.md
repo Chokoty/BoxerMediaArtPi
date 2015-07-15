@@ -1,7 +1,7 @@
 # BoxerMediaArtPi
 ## Usage
 ```
-pi@raspberrypi ~/BoxerMediaArtPi $ sudo ./boxer.out <length span> <width span>
+pi@raspberrypi ~/BoxerMediaArtPi $ sudo ./boxer.out
 ```
 ## Download and Install
 ### WiringPi
@@ -28,7 +28,7 @@ pi@raspberrypi ~ $ cd BoxerMediaArtPi
 ```
 Build excutable file from code.
 ```
-pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o boxer main.c asciiart.c asciiart.h -wiringPi
+pi@raspberrypi ~/BoxerMediaArtPi $ gcc -o boxer.out main.c asciiart.c asciiart.h -lwiringPi
 ```
 ## Notice
 * This program is for Command Line Interface.
