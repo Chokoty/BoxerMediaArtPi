@@ -68,7 +68,7 @@ void ArtMain(void)
 		"\n"
 		"\n"
 		"\n"
-		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Attitude_droite1.jpg\n");
+		"Picture's License: Alain Delmas GFDL 1.2 commons.wikimedia.org/wiki/File:Attitude_droite1.jpg\n");
 }
 
 void ArtAttackA(void)
@@ -134,7 +134,7 @@ void ArtAttackA(void)
 		"::::::.:..::.:::::.:...\n"
 		"\n"
 		"\n"
-		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Jab7.jpg\n");
+		"Picture's License: Alain Delmas GFDL 1.2 commons.wikimedia.org/wiki/File:Jab7.jpg\n");
 }
 
 void ArtAttackB(void)
@@ -200,7 +200,7 @@ void ArtAttackB(void)
 		"\n"
 		"\n"
 		"\n"
-		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Protection_passive1.jpg\n");
+		"Picture's License: Alain Delmas GFDL 1.2 commons.wikimedia.org/wiki/File:Protection_passive1.jpg\n");
 }
 
 void ArtAttackTogether(void)
@@ -278,5 +278,5 @@ void ArtAttackTogether(void)
 		"::::::.:.:.::.:...... ......  . ........   . .     ...    .\n"
 		"\n"
 		"\n"
-		"Picture's License: Alain Delmas GFDL 1.2 https://commons.wikimedia.org/wiki/File:Crochet1.jpg\n");
+		"Picture's License: Alain Delmas GFDL 1.2 commons.wikimedia.org/wiki/File:Crochet1.jpg\n");
 }
